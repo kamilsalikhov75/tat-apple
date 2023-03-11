@@ -29,8 +29,7 @@ import {
 } from './controllers/order-controller.js';
 import multer from 'multer';
 
-const dbUrl =
-  'mongodb+srv://tat-apple:79zxLKeAiMNGdIs0@cluster0.xaac9qg.mongodb.net/?retryWrites=true&w=majority/test';
+const dbUrl = process.env.DB;
 
 const storage = multer.diskStorage({
   destination: (_, __, cb) => {
@@ -86,7 +85,7 @@ app.get('/orders', checkUser, getUserOrders);
 app.get('/orders/:id', checkUser, getOneOrder);
 app.get('/allorders', checkAdmin, getAllOrders);
 
-app.listen(4002, (err) => {
+app.listen(process.env.PORT || 4002, (err) => {
   if (err) {
     return console.log(err);
   }
