@@ -1,0 +1,21 @@
+.user__tabs {
+  margin: 20px 0;
+  display: flex;
+  gap: 20px;
+}
+
+.user__tab {
+  display: block;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 15px;
+  background-color: #484848;
+  border-left: 2px solid #8a8a8a;
+  border-right: 2px solid #8a8a8a;
+}
+.user__tab--active {
+  color: #000;
+  background-color: #b9b9b9;
+}

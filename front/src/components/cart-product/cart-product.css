@@ -1,0 +1,35 @@
+.cart__product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px;
+}
+
+.cart__product-title {
+  font-size: 22px;
+}
+
+.cart__product-img {
+  width: 90px;
+}
+
+.count__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.count__button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.count__text {
+  font-size: 20px;
+}

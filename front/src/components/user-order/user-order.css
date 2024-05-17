@@ -1,0 +1,43 @@
+.order {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  background-color: #484848;
+  border-radius: 10px;
+  color: #ffffff;
+}
+
+.order__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.order__text {
+  font-size: 20px;
+}
+.order__status {
+  font-size: 18px;
+}
+.order__status--blue {
+  color: #7070ff;
+}
+.order__status--green {
+  color: #70ff75;
+}
+.order__status--red {
+  color: #ff7070;
+}
+
+.order__products {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.order__product {
+  padding: 8px;
+  width: fit-content;
+  background-color: #8a8a8a;
+}

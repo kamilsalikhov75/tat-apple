@@ -1,0 +1,45 @@
+.stores__block {
+  margin: 20px 0;
+}
+
+.stores__buttons {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+  margin: 10px 0;
+}
+
+.store__button {
+  width: 100%;
+  cursor: pointer;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #efefef;
+  font-size: 22px;
+}
+.store__button--active {
+  padding: 19px;
+  border: 1px solid #efefef;
+  background-color: transparent;
+  color: #efefef;
+}
+.cart__button {
+  background-color: #484848;
+  border: none;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 22px;
+  color: #ffffff;
+  cursor: pointer;
+  width: 100%;
+}
+
+.cart__products {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
